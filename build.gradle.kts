@@ -8,7 +8,11 @@ plugins{
 	java
 	pmd
 }
-
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
 version="1.0"
 group="ru.ac.uniyar.testingcourse"
 
